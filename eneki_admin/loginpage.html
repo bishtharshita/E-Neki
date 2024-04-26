@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0%;
+        margin: 0%;
+      }
+      .bacg {
+        height: 100vh;
+        width: 100vw;
+        background-image: url(bg1.jpg);
+        background-repeat: no-repeat;
+        background-size: 110vw 110vh;
+        opacity: 40%;
+      }
+      .box {
+        display: flex;
+        justify-content: center;
+      position: relative;
+      bottom: 98vh;
+      }
+      .loginbox {
+        position: relative;
+        background-image: url(loginback.jpg);
+        background-size: 22vw 55vh;
+        top: 20vh;
+        font-size: 30px;
+        border: 4px solid rgb(90, 91, 92);
+        border-radius: 30px;
+        text-align: center;
+        width: 30vw;
+        height: 65vh;
+        color: rgb(0, 0, 0);
+       
+      }
+      .loginbox:hover{
+        border: 4px solid rgb(0, 0, 0);
+      }
+      .admin_log_sign{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      .login{
+        display: flex;
+        position: relative;
+justify-content: center;
+        top: 16vh;
+        height: 6vh;
+        width: 8vw;
+        gap: 4px;
+      }
+      .user{
+        font-size: 4px;
+        
+      }
+   .log_user{
+        font-size: 20px;
+        
+        position: relative;
+left: 12vw;
+      bottom: 8vh;
+      }
+      
+      .user-box{
+     
+        position: relative;
+left: 12vw;
+bottom: 8vh;
+width: 12vw;
+height: 4vh;
+border: 2px solid rgb(117, 112, 112);
+border-radius: 4px;
+      }
+      .user-box:hover{
+        border: 2px solid rgb(0, 0, 0);
+      }
+      .log_pass{
+        font-size: 20px;
+        
+        position: relative;
+right:8vw;
+      /* bottom: 1vh; */
+      }
+      .pass-box{
+        position: relative;
+right: 7.28vw;
+bottom: 2.5vh;
+width: 12vw;
+height: 4vh;
+border: 2px solid rgb(117, 112, 112);
+border-radius: 4px;
+      }
+      .pass-box:hover{
+        border: 2px solid rgb(0, 0, 0);
+      }
+
+      .log_button1 {
+        position: relative;
+        right: 19vw;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        border-radius: 7px;
+        height: 6vh;
+        width: 6.5vw;
+        font-style: oblique;
+      }
+   
+      .log_button1:hover{
+     font-size: 15px;
+     border-color: rgb(0, 0, 0);
+
+    background-color: whitesmoke;
+    color: black;
+      }
+    
+
+      
+    
+      
+      </style>
+  </head>
+  <body>
+    <nav>
+      <div id="logosection">
+        
+          <div>E-NEKI<br>the helping hand</div>
+
+      </div>
+   
+      <!-- <div id="optionsection">
+          <button>Logout</button>
+      </div> -->
+  </nav>
+    <div class="bacg">
+      </div>
+      <div class="box">
+        
+        <div class="loginbox">
+          ADMIN PANEL
+          <!-- <p> Admin Login Page</p> -->
+          <div class="admin_log_sign">
+
+            <div class="login">
+              
+          <p class="log_user">   UserName- </p>
+              
+          <label for="username" class="user"  >
+                
+             <input type="text"  onfocus="this.value='' " value="@User_Name" class="user-box" id="uname"  /> 
+              </label>
+              
+              <p class="log_pass">
+          Password-</p>
+              <label for="password" class="password"  >
+             <input type="text"  onfocus="this.value='' " value="@Password" class="pass-box" id="pass" /> 
+              </label>
+              <!-- temperory  href linked to index.html-->
+              <a href="" id="mypage">
+                <br>
+                <label for="login1" class="login1"  >
+                  <input type="button"  value="Login" class="log_button1" onclick="login()"  />
+                </label>
+              </a>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+  <script>
+    function login()
+    {
+    var username="E-NEKI";
+    var password="Admin";
+    var uname=document.getElementById("uname").value;
+    var pass=document.getElementById("pass").value;
+
+    if(username==uname && password==pass)
+    {
+        document.getElementById("mypage").href="adminpannel.html";
+    }
+    else
+    {
+      alert("Invalid Username or Password");
+    }
+  }
+  </script>
+  </body>
+</html>

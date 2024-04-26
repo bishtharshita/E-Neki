@@ -1,0 +1,255 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+/* utility class */
+.h-primary{
+    font-size: 7rem;
+    color: #264913;
+}
+.para{
+    font-size: 2rem;
+}
+body{
+    background-color: antiquewhite;
+    /* font-family: 'Bruno Ace SC', cursive; */
+    font-family: 'Kanit', sans-serif;
+}
+/* navbar */
+nav{
+   display: flex;
+   width: 100vw;
+   height: 7rem;
+   background-color: black;
+   color: white;
+   justify-content: space-evenly;
+   align-items: center;
+   position: relative;
+}
+#logosection{
+    display: flex;
+    width: 15rem;
+    height: 5rem;
+    align-items: center;
+}
+#logo{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    margin-right: 15px;
+}
+#menusection{
+    width: 10rem;
+    height: 5rem;
+}
+#optionsection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 5rem;
+
+}
+#optionsection>button{
+    width: 8rem;
+    height: 2rem;
+    color: white;
+    background-color:black;
+    border: none;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 2rem;
+    
+}
+#optionsection>button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#intro::before{
+    content: "";
+    background: url(../img/bg1.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 40rem;
+    position: absolute;
+    opacity: .6;
+    z-index: -1;
+}
+/* pannel */
+#pannel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60rem;
+}
+#pannelinfo{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+#head{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 3rem;
+}
+
+.section{
+    display: flex;
+    opacity: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    height: 15rem;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 5rem;
+    padding: 3rem;
+    margin: 1rem;
+    
+    
+}
+.section>h1>a{
+    text-decoration: none;
+color: black;
+}
+#donor>h1{
+    margin-bottom: 2rem;
+}
+
+#needer>h1{
+    
+    margin-bottom: 2rem;
+}
+#donor>img{
+    width: 4rem;
+    height: 5rem;
+    
+}
+#needer>img{
+    width: 4rem;
+    height: 5rem;
+   
+}
+#clothes>h1>a{
+    position: relative;
+    bottom: 4vh;
+}
+#clothes>img
+{
+    position: relative;
+    bottom: 2vh;
+    width:12rem;
+    height:12rem;
+}
+#Grocery>img
+{
+    width:10rem;
+    height:10rem;
+}
+#Grocery>h1>a{
+    position: relative;
+    bottom: 3vh;
+}
+#Footwear>img
+{
+    width:7rem;
+    height:6rem;
+}
+#Furniture>img
+{
+    width:8rem;
+    height:7rem;
+}
+#Stationary>img
+{
+    width:12rem;
+    height:8rem;
+}
+#House-Hold>img
+{
+    width:10rem;
+    height:10rem;
+}
+#House-Hold>h1>a{
+    position: relative;
+    bottom: 2vh;
+}
+#Needed-Items>img
+{
+    width:10rem;
+    height:9rem;
+}
+#Needed-Items{
+    position: relative;
+    left: 12.5vw;
+}
+#Orders{
+    position: relative;
+    right: 12.5vw;
+}
+#Orders>h1>a{
+    position: relative;
+    bottom: 3vh;
+}
+#Orders>img
+{
+    width:15rem;
+    height:13rem;
+}
+/* footer */
+footer{
+    width: 100%;
+    height: 40rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    border: 2px olid white;
+}
+#footer-img{
+    width: 50%;
+
+
+}
+#footer-img img{
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+}
+#aim{
+    display: flex;
+    width: 50%;
+    
+    flex-direction: column;
+    background-color: #9d6060;
+    align-items: center;
+    padding: 4rem;
+}
+#aim h1{
+   font-size: 4rem;
+   margin-bottom: 4rem;
+}
+#aim p{
+    font-size: 1.5rem;
+}
