@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(137, 230, 230);
+    padding-right: none;
+
+}
+
+li {
+    float: right;
+
+}
+
+/*.logo img{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+   
+}
+.logo{
+    width: min-content;
+    height: auto;
+}
+*/
+
+
+li a {
+    display: block;
+    color: rgb(5, 84, 82);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: solid;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+li a:hover {
+    background-color: rgb(98, 98, 154);
+    color: white;
+}
+
+#logo {
+    float: left;
+    padding-left: 5px;
+    height: 10;
+    width: 20;
+    padding-top: 5px;
+
+}
+
+.container {
+    /*position:relative;
+   background: url(video4.mp4);
+    background-size: 100%;
+    width: 100vw;
+    height: 100%;
+    top: 10px;*/
+    /*position: ;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 50%;*/
+    position: relative;
+    width: 100%;
+    height: 80vh;
+
+
+
+
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#pera {
+
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aquamarine;
+}
+
+#pera1 {
+    width: 40%;
+    height: 35vh;
+    float: left;
+    font-size: 1.7rem;
+    color: rgb(5, 84, 82);
+    background-color: rgb(137, 230, 230);
+
+
+}
+
+#pera2 {
+    width: 40%;
+    height: 35vh;
+    font-size: 1.7rem;
+    color: rebeccapurple;
+    margin-left: 50px;
+    background-color: rgb(166, 166, 214);
+}
+
+.container1 {
+
+    background: url(donation.jpg);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 90vh;
+
+}
+
+/*
+#video{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+ .video{
+    width: 40%;
+    height: auto;
+float: right;
+padding: 2px;
+
+ }
+  
+.video{
+    width: 60%;
+    height: auto;
+float: left;
+padding: 2px;
+}
+*/
+/*#video {
+    
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+   
+
+}*/
+
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}

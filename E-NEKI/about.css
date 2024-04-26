@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(137, 230, 230);
+    padding-right: none;
+
+}
+
+li {
+    float: right;
+
+}
+
+li a {
+    display: block;
+    color: rgb(5, 84, 82);
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: solid;
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  ;
+
+}
+
+li a:hover {
+    background-color: rgb(98, 98, 154);
+    color: white;
+}
+
+#logo {
+    float: left;
+    padding-left: 5px;
+    height: 10;
+    width: 20;
+    padding-top: 5px;
+
+}
+body{
+    background-color:white;
+    background: linear-gradient(90deg, rgba(192,242,239,1) 0%, rgba(187,221,221,1) 25%, rgba(239,201,242,1) 100%);
+}
+ .heading{
+    text-align: center;
+    margin-top: 25px;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.heading h1{
+    font-size: 70px;
+    color: rgb(5, 84, 82);
+    margin-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading h2{
+    font-size: 35px;
+    color: rgb(98, 98, 154);
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size: 20px;
+    color: rgb(5, 84, 82);
+    margin-bottom: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-us{
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.moto{
+    align-items: center;
+   /* padding: 50px;*/
+    padding-left: 20%; 
+    border: 10px;  
+}
+
+.moto h1{
+    color: rgb(127, 92, 159);
+    font-size: 70px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.moto h2{
+    color: darkcyan;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.moto h3{
+    color: rgb(35, 36, 143);
+    font-size: 90px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.content{
+    padding: 35px;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+ .content p{
+   color: rgb(5, 84, 82);
+   font-size: 18px;
+   line-height: 1.5;
+   margin: 15px 0px; 
+
+} 
+.content h2{
+    font-size: 35px;
+    color: rgb(98, 98, 154);
+    margin-bottom: 10px;
+    }  
+

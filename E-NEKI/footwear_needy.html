@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="detailformnew.css">
+    <title>Simple Form</title>
+    <link rel="icon" type="x-icon" href="C:\xampp\htdocs\eneki fiza\fmf.jpg.png">
+   <!--<link rel="stylesheet" href="style.css"
+    <style>
+      form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input, textarea {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+      </style>-->
+    
+  </head>
+    <body>
+        <h1>
+          Select Footwear
+       </h1>
+    
+        <form action="add_to_cart.php" method="POST">
+          <!-- <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required> -->
+          <label for="items">Items:</label>
+          <select name="items">
+           
+            <option value="shoes(male)">Shoes(Male)</option>
+            <option value="slippers(male)">Slippers(Male)</option>
+            <option value="sandles(male)">Sandles(Male)</option>
+            <option value="shoes(female)">Shoes(Female)</option>
+            <option value="slippers(female)">Slippers(Female)</option>
+            <option value="sandles(female)">Sandles(Female)</option>
+            
+          </select>
+          <br>
+          <!-- <br>
+          <fieldset>
+            <legend> Gender</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male">
+                Female <input type="radio" name="gender" id="female">
+              </p>
+          </fieldset> -->
+          <br>
+          
+          <label for="size">Size:</label>
+          <select name="size">
+           
+            <option value="3"> 3 </option>
+            <option value="4"> 4</option>
+            <option value="5"> 5</option>
+            <option value="6"> 6</option>
+            <option value="7">7 </option>
+            <option value="8">8 </option>
+            <option value="9"> 9</option>
+            <option value="10">10</option>
+            
+          </select>
+        <br>
+        <br>
+        <label for="quantity">Quantity:</label>
+        <input type="number" min="1" max="100" value="1" name="quantity"> 
+        <br>
+        <br>
+        <!-- <label for="Picture">Picture:</label>
+        <input type="file" min="1kb" max="1mb">
+         <br>
+        <br>
+        <label id="fiza" for="message">Description:</label>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea> 
+        <br>
+        <br>
+        <br> -->
+        <button type="submit" name="add_to_cart">ADD TO CART</button>
+      </form>
+    </body>
+</html>

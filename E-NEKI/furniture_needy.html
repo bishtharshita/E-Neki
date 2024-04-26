@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="detailformnew.css">
+    <title>Simple Form</title>
+    <link rel="icon" type="x-icon" href="C:\xampp\htdocs\eneki fiza\fmf.jpg.png">
+   <!--<link rel="stylesheet" href="style.css"
+    <style>
+      form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input, textarea {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+      </style>-->
+    
+  </head>
+    <body>
+        <h1>
+          Select Furniture
+       </h1>
+    
+        <form action="add_to_cart.php" method="POST">
+          <!-- <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required> -->
+          <label for="Items">Items:</label>
+          <select name="items">
+            
+            <option value="sofa">Sofa</option>
+            <option value="bed">Bed</option>
+            <option value="chair">Chair</option>
+            <option value="table">Table</option>
+            <option value="almirah">Almirah</option>
+            
+          </select>
+          <br>
+          <br>
+         
+          <!-- <fieldset>
+            <legend> Gender</legend>
+            <p>
+                Male <input type="radio" name="gender" id="male">
+                Female <input type="radio" name="gender" id="female">
+              </p>
+          </fieldset> -->
+          
+          <!-- <label for="size">Size:</label>
+          <select id="cars"name="size" required>
+            <option value="select size"> Select Size </option>
+            <option value="xs"> XS </option>
+            <option value="S"> S</option>
+            <option value="M"> M</option>
+            <option value="L"> L</option>
+            <option value="XL">XL </option>
+            <option value="XXL">XXL </option>
+            <option value="L"> 3XL</option>
+            <option value="XL">4XL </option>
+            <option value="XXL">5XL </option>
+          </select> -->
+        
+       
+        <label for="Quantity">Quantity:</label>
+        <input type="number" min="1" max="100" value="1" name="quantity"> 
+        <br>
+        <br>
+        <!-- <label for="Picture">Picture:</label>
+        <input type="file" min="1kb" max="1mb">
+         <br>
+         <br> -->
+        
+        <!-- <label id="fiza" for="message">Description:</label>
+        <textarea id="message" name="message" rows="4" cols="40"></textarea> -->
+        <!-- <br>
+        <br> -->
+        <input type="hidden" name="size" value="0">
+        <button type="submit" name="add_to_cart">ADD TO CART</button>
+      </form>
+    </body>
+</html>

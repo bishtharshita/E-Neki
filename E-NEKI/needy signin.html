@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<head>
+    <title> E-NEKI</title>
+    <link rel="stylesheet" type="text/css" href="needysignin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="x-icon" href="fmf.jpg.png">
+    <style>
+        .formerror{
+            /* color: rgb(44, 201, 175); */
+            color: red;
+            font-size: 1rem;
+        }
+      #LocalityMessage{
+        position: relative;
+        /* left: 8.2vw; */
+       
+      }
+      #PinCodeMessage{
+        position: relative;
+        /* left: 9.7vw; */
+      }
+      #StateMessage{
+        position:relative;
+        /* left: 12vw; */
+      }
+    </style>
+
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <div id="logo"><img src="fmf.jpg.png" alt="logo" height="60" width="100">
+
+            </div>
+            <li><a href="doner login.html">DONER LOGIN</a></li>
+            <li><a href="signin for donner.html">DONER SIGNUP</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="final.html">HOME</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h2> NEEDY SIGN-UP </h2>
+        <form action="needy_signup.php" method="post">
+            <div class="first">
+                <div class="wrap" id="namee">
+                    <i class="fa fa-user"></i>
+                    <input type="text" placeholder="Full Name" class="name" name="name" id="Uname">
+                </div>
+                <b>  <span class="formerror" id="UserNameMessage"></span> </b>
+                <div class="wrap" id="mobile">
+                    <i class="fa fa-phone-square"></i>
+                    <input type="tel" placeholder="Mobile Number" class="name" name="mno" id="Mbnum" maxlength="10">
+                </div>
+                <b>  <span class="formerror" id="MobileMessage"> </span> </b>
+
+                <div class="wrap" id="emaill">
+                    <i class="fa fa-envelope email"></i>
+                    <input type="email" placeholder=" Email" class="name" name="email" id="mail">
+                </div>
+                <b>  <span class="formerror" id="EmailMessage"> </span> </b>
+
+                <div class="wrap" id="pass">
+                    <i class="fa fa-lock lock"></i>
+                    <input type="password" placeholder="Password" class="name" name="password" id="passW">
+                </div>
+                <b>  <span class="formerror" id="PasswordMessage"> </span> </b>
+                <div class="wrap" id="cpass">
+                    <i class="fa fa-lock lock"></i>
+                    <input type="password" placeholder="Confirm Password" class="name" name="cpassword" id="CpassW">
+                </div>
+                <b>  <span class="formerror" id="ConfirmPassMessage"> </span> </b>
+            </div>
+
+            <div class="wrap3">
+
+                <div class="wrap2">
+                    <legend> <b> Address <b></legend>
+                    <input type="text" placeholder="House No" name="hno" id="houseNum">
+                    <input type="text" placeholder="Locality/street" name="loc" id="locality">
+                    <div class="wrap1">
+                        <input type="text" placeholder="Landmark" name="land" id="landmark">
+                        <input type="" placeholder="Pincode" name="pin" id="pincode">
+                    </div>
+                    <div class="wrap1">
+                        <input type="text" placeholder="City" name="city" id="city">
+                        <input type="text" placeholder="State" name="state" id="state">
+                    </div>
+                </div>
+                <b> <span class="formerror" id="houseNumMessage"></span> </b><br>
+                
+                <b> <span class="formerror" id="LocalityMessage"> </span></b><br>
+                
+                <b> <span class="formerror" id="LandMarkMessage"></span> </b><br>
+                
+                <b> <span class="formerror" id="PinCodeMessage"></span> </b><br>
+                
+                <b> <span class="formerror" id="CityMessage"></span> </b><br>
+                
+                <b> <span class="formerror" id="StateMessage"></span> </b>   
+            </div>
+
+            <!--<div class="wra">-->
+            <center id="button">
+                <input disabled type="submit" id="submit" class="button" value="SIGNUP">
+            </center>
+            <!--</div>-->
+        </form>
+    </div>
+    <script src="app2.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  /* background:rgb(34, 193, 195);
+  background: linear-gradient(0deg,rgba(34,193,195,1) 0%, rgba(255,12,12,1)); */
+  background: rgb(192,242,239);
+  background: linear-gradient(90deg, rgba(192,242,239,1) 0%, rgba(187,221,221,1) 25%, rgba(239,201,242,1) 100%); 
+  /* background-repeat: no-repeat; */
+  margin-top: 10%;
+  padding-bottom: 12%;
+}
+h1 {
+     text-align: center;
+     color:  rgb(98, 98, 154);
+    
+    padding-bottom: 25px;
+    font-size: 50px;
+ }
+ 
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 50px;
+    border: 5px solid black ;
+    border-radius: 50px ;
+    font-family: 'Castoro Titling', cursive;
+  
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+    
+  }
+  
+   textarea {
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+  label{
+    width: auto;
+  }
+  
+  button {
+    background-color: #32a4c4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    margin-left: 85px;
+  }
+  
+  button:hover {
+    background-color:  rgb(98, 98, 154);
+    font-weight: bold;
+  }  
+  
